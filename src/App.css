@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #1F618D;
+}
+
+.main-app-container .list-group-item {
+  display: flex;
+}
+
+.list-group-item .form-check {
+  width: 90%;
+}
+
+.list-group-item-actions {
+  width: 10%;
+  text-align: right;
+  min-width: 60px;
+}
+
+.list-group-item-actions span {
+  display: none;
+  color: #c00;
+}
+
+.main-app-container .list-group-item:hover .list-group-item-actions span {
+  display: inline;
+  cursor: pointer;
+}
+
+.list-group-item-actions span:hover {
+  text-decoration: underline;
+}
+
+.list-group-item.task-completed {
+  background-color: #f2f2f2;
+}
+
+.list-group-item.task-completed .form-check-label {
+  text-decoration: line-through;
+}
+
+.add-new-category {
+  margin-top: 10px;
+  text-align: center;
+  color: #566573;
+}
+
+.add-new-category span {
+  display: inline-block;
+  border-bottom: 1px dashed;
+}
+
+.add-new-category span:hover {
+  border-bottom: none;
+  cursor: pointer;
+  color: #212529;
+}
